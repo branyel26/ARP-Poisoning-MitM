@@ -274,7 +274,7 @@ El uso de esta herramienta contra redes sin autorización explícita es **ilegal
 - [Dynamic ARP Inspection - Cisco](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst6500/ios/12-2SX/configuration/guide/book/dynarp.html)
 - [DHCP Snooping - Cisco](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst4500/12-2/25ew/configuration/guide/conf/dhcp.html)
 - [Scapy Documentation](https://scapy.readthedocs.io/)
-- [Man-in-the-Middle Attack - OWASP](https://owasp.org/www-community/attacks/Man-in-the-middle_attack)
+- [Manipulator-in-the-Middle Attack - OWASP](https://owasp.org/www-community/attacks/Manipulator-in-the-middle_attack)
 
 ---
 
