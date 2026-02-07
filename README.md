@@ -19,10 +19,6 @@ El protocolo ARP (Address Resolution Protocol) opera en la **Capa 2 del modelo O
 - Interceptar todo el tráfico de la víctima
 - Realizar ataques de tipo Man-in-the-Middle
 
-### Evidencia del Ataque
-
-![Ataque MitM ARP Poisoning](Ataque_MitM.png)
-
 ---
 
 ## 🌐 Topología del Laboratorio
@@ -40,7 +36,15 @@ El protocolo ARP (Address Resolution Protocol) opera en la **Capa 2 del modelo O
 
 ---
 
-## 🔧 Funcionamiento del Ataque
+## � Evidencias del Ataque
+
+![Ejecución del ataque MitM](Ataque_MitM.png)
+
+![Verificación de ARP envenenado](evidencia2.png)
+
+---
+
+## �🔧 Funcionamiento del Ataque
 
 ### Paso 1: Estado Normal (Pre-Ataque)
 
