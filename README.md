@@ -31,8 +31,8 @@ El protocolo ARP (Address Resolution Protocol) opera en la **Capa 2 del modelo O
 |-------------|-----|--------------|---------------|
 | **R1** | Gateway | 14.89.0.1 | aa:bb:cc:00:20:00 |
 | **Kali Linux** | Atacante | 14.89.0.3 | 00:50:00:00:01:00 |
-| **VPCS-1** | PC Cliente | 14.89.0.4 | 00:77:00:00:01:01 |
-| **VPCS-2** | PC Cliente (Víctima) | 14.89.0.5 | 00:50:00:00:01:01 |
+| **VPCS-1** | PC Cliente | 14.89.0.4 | 00:90:00:00:01:01 |
+| **VPCS-2** | PC Cliente (Víctima) | 14.89.0.5 | 00:77:00:00:01:01 |
 
 ---
 
@@ -235,7 +235,8 @@ Switch(config-if)# switchport port-security violation shutdown
 
 ```cisco
 ! En el switch o router
-Switch(config)# arp 14.89.0.4 00:77:00:00:01:01 arpa
+Switch(config)# arp 14.89.0.4 00:90:00:00:01:01 arpa
+Switch(config)# arp 14.89.0.5 00:77:00:00:01:01 arpa
 
 ! En hosts Linux
 sudo arp -s 14.89.0.1 aa:bb:cc:00:20:00
