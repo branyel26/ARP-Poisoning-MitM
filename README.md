@@ -35,7 +35,8 @@ El protocolo ARP (Address Resolution Protocol) opera en la **Capa 2 del modelo O
 |-------------|-----|--------------|---------------|
 | **R1** | Gateway | 14.89.0.1 | aa:bb:cc:00:20:00 |
 | **Kali Linux** | Atacante | 14.89.0.3 | 00:50:00:00:01:00 |
-| **VPCS** | Víctima | 14.89.0.4 | 00:77:00:00:01:01 |
+| **VPCS-1** | PC Cliente | 14.89.0.4 | 00:77:00:00:01:01 |
+| **VPCS-2** | PC Cliente (Víctima) | 14.89.0.5 | 00:50:00:00:01:01 |
 
 ---
 
@@ -272,11 +273,5 @@ El uso de esta herramienta contra redes sin autorización explícita es **ilegal
 
 ---
 
-## 📄 Licencia
-
-Este proyecto está bajo la licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
-
----
-
-**Universidad:** [Nombre de la Universidad]  
-**Fecha:** 2026
+**Instituto Tecnológico de las Américas (ITLA)**  
+**Fecha:** 06/02/2026
