@@ -1,0 +1,8 @@
+# ARP Poisoning MitM Attack - Dependencias
+# =========================================
+# Autor: Branyel Estifenso Pérez Díaz
+# Proyecto: Seguridad de Redes
+
+# Scapy - Biblioteca de manipulación de paquetes de red
+# Permite crear, enviar y capturar paquetes ARP
+scapy>=2.5.0
